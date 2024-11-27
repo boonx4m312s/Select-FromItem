@@ -11,6 +11,9 @@ $result = Select-FromItem @("Option1", "Option2", "Option3")
 Write-Host "選択したのは $result"
 Read-Host "Press Enter to continue" | Out-Null
 ```
+# 引数
+必ず配列で渡してください。  
+Dictionaryなどでは動作しません。  
 
 # 注意点
 本ps1はPowershell5とPowershell7両方動作確認していますが、Powershell5 ISEでデバッグ実行した際には挙動が変わります。  
