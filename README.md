@@ -9,7 +9,6 @@ Cloneの場合はプログラムを呼び出してから```Select-FormItem```を
 ```
 $result = Select-FromItem @("Option1", "Option2", "Option3")
 Write-Host "選択したのは $result"
-Read-Host "Press Enter to continue" | Out-Null
 ```
 # 引数
 必ず配列で渡してください。  
